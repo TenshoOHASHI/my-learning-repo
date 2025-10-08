@@ -44,7 +44,7 @@ jobs:
         run: |
           echo "暗号化対象: shop/index.html"
           ls docs/build/html/shop  # index.html があるか確認
-          staticrypt docs/build/html/shop/index.html tensho2025
+          staticrypt shop/index.html tensho2025
 
       # ============================
       # 既存の GitHub Pages デプロイステップ
