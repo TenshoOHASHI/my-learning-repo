@@ -32,8 +32,4 @@
 
    chapters/roadmap/index
    chapters/study/index
-
-
-
-
-　　
+   shop/index
