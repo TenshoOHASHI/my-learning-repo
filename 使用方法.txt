@@ -1,0 +1,28 @@
+1. htmlを生成 make html
+2. windowsの場合は、 make.bat html
+3. build/html/フォルダにHTMLが生成されます。
+
+三つの構成ファイル
+build/html/index.html
+build/html/chapters/
+build/html/_static/
+
+4. open build/html/index.htmlで開くことができる。
+
+
+
+- Markdownを追加（conf.py）
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
+
+
+- パスワード保護(HTMLビルド後に簡易パスワード保護を追加)
+生成された build/html/index.html に JavaScript を追加する。
+<script>
+const password = prompt("パスワードを入力してください：");
+if (password !== "1234") {
+  document.body.innerHTML = "<h2>アクセス拒否</h2>";
+}
+</script>

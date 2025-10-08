@@ -8,22 +8,45 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      # リポジトリをチェックアウト
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Python 環境をセットアップ
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
+      # 依存関係をインストール
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Sphinx で HTML をビルド
       - name: Build Sphinx
         run: |
           sphinx-build -b html docs/source/ docs/build/html
+
+      # ============================
+      # ここから追加：Staticrypt で特定ページを暗号化
+      # ============================
+
+      # CI 環境に Staticrypt をインストール
+      - name: Install Staticrypt
+        run: |
+          sudo npm install -g staticrypt
+
+      # shop/index.html をパスワードで保護
+      - name: Encrypt Shop Page with Staticrypt
+        run: |
+          # パスワードは tensho2025
+          staticrypt docs/build/html/shop/index.html tensho2025
+
+      # ============================
+      # 既存の GitHub Pages デプロイステップ
+      # ============================
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -31,4 +54,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/build/html # 生成されたhtmlディレクトリ内のファイルをgh-pagesのルートに配置する
           publish_branch: gh-pages
-          force_orphan: true 
+          force_orphan: true
