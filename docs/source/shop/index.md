@@ -36,6 +36,15 @@
   </a>
 </div>
 
+<div class="shop-card">
+  <a href="https://www.amazon.co.jp/%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%B2%E3%83%B3-%E3%83%9E%E3%83%83%E3%83%88%E3%83%AC%E3%82%B9%E4%BB%98%E3%81%8D-%E3%83%9C%E3%83%B3%E3%83%8D%E3%83%AB%E3%82%B3%E3%82%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%88%E3%83%AC%E3%82%B9-11719151-104844/dp/B0DZH1LZYZ/ref=sr_1_17?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=13Y4NHOU82PZX&dib=eyJ2IjoiMSJ9._UUPW_Pho4Uu2_fGogibVJDiNVEYTPqzvIqhGcgxkNPtc4AAJBlsVV0M_bA_JmMtvU3I0TwuKrBhwbkjn2bpEwvezSWXiHjeWwlD9hrvMgq-myJUN-F6liuHZ44ieo4cXW-yI99ng-JAvzJsTpbwKnckhJ9_6pe_6KuT_hJ9DFADXEQdfANJWSL9H5hHLLGLCUHU3xklluBVRWyCon07s14Vw9c4iNLXusnEF6HE4qOhDvs2Qz2Tl5nTE3En3AYN1FNIzWDcwDhR9g8M8p7jlxuSaKxi8k_mYWyjN5RXLw0.rtjhZMwrWY7QXT-3Cbgp2vaAJbuQpFEUQ6v6rct5gVk&dib_tag=se&keywords=%E3%83%99%E3%83%83%E3%83%89%E3%83%9E%E3%83%83%E3%83%88%E3%83%AC%E3%82%B9%2B%E3%82%BB%E3%83%83%E3%83%88&qid=1759851760&s=home&sprefix=%E3%83%99%E3%83%83%E3%83%89%E3%83%9E%E3%83%83%E3%83%88%E3%83%AC%E3%82%B9%2B%E3%82%BB%E3%83%83%E3%83%88%2Ckitchen%2C170&sr=1-17&th=1" target="_blank">
+    <img src="../_static/image/bed.png" alt="牛乳">
+    <h3>シングルベッド</h3>
+    <p class="price">¥17,800</p>
+    <p class="comment">マットレス付き シングル 3段階高さ調節 ボンネルコイルマットレス フレーム ベッド すのこベッド</p>
+  </a>
+</div>
+
 </div>
 
 ---
