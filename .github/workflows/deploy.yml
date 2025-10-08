@@ -33,16 +33,22 @@ jobs:
       # ここから追加：Staticrypt で特定ページを暗号化
       # ============================
 
-      # # CI 環境に Staticrypt をインストール
-      # - name: Install Staticrypt
-      #   run: |
-      #     sudo npm install -g staticrypt
+      # CI 環境に Staticrypt をインストール
+      - name: Install Staticrypt
+        run: |
+          sudo npm install -g staticrypt
 
-      # # shop/index.html をパスワードで保護
-      # - name: Encrypt Shop Page with Staticrypt
-      #   run: |
-      #     # パスワードは tensho2025
-      #     staticrypt docs/build/html/shop/index.html tensho2025
+      # shop/index.html をパスワードで保護
+      - name: Encrypt Shop Page with Staticrypt
+        run: |
+          # パスワードは tensho2025
+          staticrypt docs/build/html/shop/index.html tensho2025
+
+      - name: Encrypt Shop Page with Staticrypt
+        run: |
+          # パスワードは tensho2025
+          # shop/index.html のみ暗号化
+          staticrypt docs/build/html/shop/index.html tensho2025
 
       # ============================
       # 既存の GitHub Pages デプロイステップ
