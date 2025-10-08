@@ -45,6 +45,26 @@
   </a>
 </div>
 
+
+<div class="shop-card">
+  <a href="https://www.amazon.co.jp/alawooder-%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB-%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E5%AE%8C%E6%88%90%E5%93%81%E3%80%90%E7%B5%84%E3%81%BF%E7%AB%8B%E3%81%A6%E7%B0%A1%E5%8D%98-%E7%9C%81%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E5%83%85%E3%81%8B6cm%E3%81%AE%E8%96%84%E3%81%95-%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E3%83%87%E3%82%B9%E3%82%AF/dp/B0DPLFYQX9/ref=sr_1_1_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1QPXOY9UC8788&dib=eyJ2IjoiMSJ9.yBRL26GD_NclngpHonln9uka_FNyE1r5Xrf6nIm3KQbw-hR-Xh-fKOFucRrEaCztTT5Pl1Thr4QgXgxVq7cSddbyZxo1lLzfBmxFRcXsq74pm5-ZInsQHYDYxopJb_QGYs2t76lr3v2L1_IdvYBLSEqC8KWioIALh3sVl3386AhF1cC4ZCG0ULdKHEw4KtnKu4S00g8I7tZclhdCqtMSS0KBdZaXZLHmTjhAE0kRCYAokwOtcdgXioZWUJ6br4Ma_fq4tf7INc87MCQltdyv-0Rjh7-hMU7PIsbvL1Di7Tc.qZccMcfzj5o5SXN0ca1miaU1S5N9auCUoHo3lAWp8y8&dib_tag=se&keywords=%E6%9C%BA&qid=1759932536&s=home&sprefix=%E6%9C%BA%2Ckitchen%2C182&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">
+    <img src="../_static/image/desk.png" alt="牛乳">
+    <h3>テーブル</h3>
+    <p class="price">¥9,999</p>
+    <p class="comment">折り畳み デスク 完成品【組み立て不要】省スペース僅か6cmの薄さ 耐荷重60kg パソコンデスク コンパクト オフィスワークテーブル 在宅ワーク デスク ゲーミングデスク 在宅勤務 (ブラウン, 30インチ)</p>
+  </a>
+</div>
+
+
+<div class="shop-card">
+  <a href="https://www.amazon.co.jp/CICINELL-%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9%E3%83%81%E3%82%A7%E3%82%A2-%E5%9C%A8%E5%AE%85%E5%8B%A4%E5%8B%99%E3%83%BB%E3%83%86%E3%83%AC%E3%83%AF%E3%83%BC%E3%82%AF%E5%90%91%E3%81%91-%E3%83%A9%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%98%E3%81%8D-%E8%82%98%E7%84%A1%E3%81%97%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0DT41834G/ref=sr_1_44?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1PUMRK5VDN4DP&dib=eyJ2IjoiMSJ9.pcwe4gKlU3h-Al31kEP61GYRVWIAqF2SdHfs37u9bFUby_vQgwAU_vDgSfTO8rS2HOLXtkrEWTUHW64PsBUfF-h990uLWtKO3fCMT9NOQRykZt3zAoBKnC1BVFo7A9hc52ttH4dqoIhBVtjToEP6WvvEFvQYVQ75MSwIlY_CTlqqUwTtPHy4cEfc-1ZovmaYZpPFUb4GUxiKUpCAKfcDAicTBpTou2t2K8dRvt2RXSRO9akd-JzOz6QBbHiMs6yW.wLhPvJj-mT2XZ-GWFjaK8f6hn7uV42KBaeU6AdyAjJk&dib_tag=se&keywords=%E6%A4%85%E5%AD%90&qid=1759932760&s=home&sprefix=%E6%A4%85%E5%AD%90%2Ckitchen%2C217&sr=1-44&xpid=U7TB4WhH_9Ltj&th=1" target="_blank">
+    <img src="../_static/image/chair.png" alt="牛乳">
+    <h3>オフィスチェア</h3>
+    <p class="price">¥4,980</p>
+    <p class="comment">在宅勤務・テレワーク向け 人間工学設計 ランバーサポート付き オフィスチェア ハイバック ロッキング 高反発座面 通気性 肘無しブラック</p>
+  </a>
+</div>
+
 </div>
 
 ---
