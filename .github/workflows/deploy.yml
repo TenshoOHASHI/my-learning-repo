@@ -30,23 +30,6 @@ jobs:
           sphinx-build -b html docs/source/ docs/build/html
 
       # ============================
-      # ここから追加：Staticrypt で特定ページを暗号化
-      # ============================
-
-      # CI 環境に Staticrypt をインストール
-      - name: Install Staticrypt
-        run: |
-          sudo npm install -g staticrypt
-          staticrypt --version   # バージョン確認で動作確認
-
-      # shop/index.html をパスワードで保護
-      - name: Encrypt Shop Page with Staticrypt
-        run: |
-          echo "暗号化対象: shop/index.html"
-          ls docs/build/html/shop  # index.html があるか確認
-          staticrypt shop/index.html tensho2025
-
-      # ============================
       # 既存の GitHub Pages デプロイステップ
       # ============================
 

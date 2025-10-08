@@ -1,6 +1,6 @@
 # 🛍️ 買い物リスト
 
-<!-- <script src="../_static/js/auth.js"></script> -->
+<script src="../_static/js/auth.js"></script>
 
 ようこそ！
 このページでは商品の一覧をカードスタイルで表示します。
