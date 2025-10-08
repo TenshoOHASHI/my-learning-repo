@@ -1,21 +1,22 @@
 @use "../globals/index" as *;
 
 .wy-side-nav-search {
-    display: block;
-    width: 300px;
-    padding: .809em;
-    margin-bottom: .809em;
-    z-index: 200;
-    background-color: slategray;
-    background-image:
-        radial-gradient(circle at 10% 20%, rgba(255,255,255,.1) 0%, rgba(255,255,255,.0) 20%),
-        radial-gradient(circle at 90% 80%, rgba(255,255,255,.1) 0%, rgba(255,255,255,.0) 20%);
-    text-align: center;
-    color: #fcfcfc;
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: slategray;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .0) 20%),
+    radial-gradient(circle at 90% 80%, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .0) 20%);
+  text-align: center;
+  color: #fcfcfc;
 }
 
 .wy-side-nav-search .logo {
-  max-height: 140px; /* 適宜変更 */
+  max-height: 140px;
+  /* 適宜変更 */
   width: auto;
 }
 
@@ -26,18 +27,22 @@
     transform: rotateY(0) scale(1);
     filter: drop-shadow(0 0 5px rgba(104, 173, 222, 0.5));
   }
+
   25% {
     transform: rotateY(90deg) scale(1.1);
     filter: drop-shadow(0 0 15px rgba(0, 200, 255, 0.8));
   }
+
   50% {
     transform: rotateY(180deg) scale(1.2);
     filter: drop-shadow(0 0 25px rgb(199, 169, 244));
   }
+
   75% {
     transform: rotateY(270deg) scale(1.1);
     filter: drop-shadow(0 0 15px rgba(212, 81, 248, 0.8));
   }
+
   100% {
     transform: rotateY(360deg) scale(1);
     filter: drop-shadow(0 0 5px rgba(0, 150, 255, 0.5));
@@ -49,10 +54,12 @@
     background-position: 0% 50%;
     background-size: 100% 100%;
   }
+
   50% {
     background-position: 100% 50%;
     background-size: 200% 200%;
   }
+
   100% {
     background-position: 0% 50%;
     background-size: 100% 100%;
@@ -60,9 +67,12 @@
 }
 
 @keyframes neonGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff;
   }
+
   50% {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
   }
@@ -89,12 +99,10 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(45deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0) 100%);
   transform: rotate(45deg);
   transition: all 0.5s ease;
   opacity: 0;
@@ -116,9 +124,11 @@
     opacity: 0;
     transform: rotate(45deg) translateX(-100%);
   }
+
   20% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     transform: rotate(45deg) translateX(100%);

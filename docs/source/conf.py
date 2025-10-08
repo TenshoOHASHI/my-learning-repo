@@ -6,19 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'MyLearning'
-copyright = '2025, tensho'
-author = 'tensho'
-release = 'y'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('./exts'))
-#
-# extensions.append('mermaid_wrapper')
+project = "MyLearning"
+copyright = "2025, tensho"
+author = "tensho"
+release = "y"
 
 extensions = [
     "sphinx.ext.autodoc",
@@ -30,21 +25,21 @@ extensions = [
 
 
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
 
 
-html_last_updated_fmt = '\n%Y-%m-%d %H:%M'
+html_last_updated_fmt = "\n%Y-%m-%d %H:%M"
 todo_include_todos = True
 html_show_sourcelink = False
-suppress_warnings = ['misc.highlighting_failure']  # mermaid の警告抑制用
+suppress_warnings = ["misc.highlighting_failure"]  # mermaid の警告抑制用
 # master_doc = 'index'
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 
-language = 'ja'
+language = "ja"
 
 # ソースファイルのエンコーディング
 source_encoding = "utf-8"
@@ -56,12 +51,12 @@ source_encoding = "utf-8"
 html_theme = "sphinx_rtd_theme"
 
 
-html_static_path = ['_static']
+html_static_path = ["_static"]
 # サイドバーに表示するロゴ画像を指定（ファイル名を適切に変更してください）
-html_logo = '_static/image/logo.png'
+html_logo = "_static/image/logo.png"
 # ブラウザのタブアイコンにする場合
 html_css_files = [
-    'css/style/style.css',
+    "css/style/style.css",
 ]
 
 # html_context = {
@@ -73,7 +68,6 @@ html_js_files = [
     ("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js", {"defer": "defer"}),
     ("data/gantt-data.js", {"defer": "defer"}),
     ("js/mermaid-wrapper.js", {"defer": "defer"}),
-
 ]
 
 

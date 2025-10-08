@@ -31,6 +31,8 @@
    :caption: 目次
 
    chapters/roadmap/index
+   chapters/study/index
+
 
 
 
