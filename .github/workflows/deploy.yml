@@ -37,17 +37,13 @@ jobs:
       - name: Install Staticrypt
         run: |
           sudo npm install -g staticrypt
+          staticrypt --version   # バージョン確認で動作確認
 
       # shop/index.html をパスワードで保護
       - name: Encrypt Shop Page with Staticrypt
         run: |
-          # パスワードは tensho2025
-          staticrypt docs/build/html/shop/index.html tensho2025
-
-      - name: Encrypt Shop Page with Staticrypt
-        run: |
-          # パスワードは tensho2025
-          # shop/index.html のみ暗号化
+          echo "暗号化対象: shop/index.html"
+          ls docs/build/html/shop  # index.html があるか確認
           staticrypt docs/build/html/shop/index.html tensho2025
 
       # ============================
